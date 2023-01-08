@@ -6,6 +6,12 @@ local keymap = vim.keymap -- for conciseness
 
 keymap.set("i", "jk", "<ESC>")
 
+keymap.set({"n","v"}, "<F11>", "^")
+keymap.set({"n","v"}, "<F12>", "$")
+
+keymap.set({"n"}, "<C-d>", "<C-d>zz")
+keymap.set({"n"}, "<C-u>", "<C-u>zz")
+
 -- clear search field
 keymap.set("n", "<leader>nh", ":nohl<CR>")
 

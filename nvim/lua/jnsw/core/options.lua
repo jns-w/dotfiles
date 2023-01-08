@@ -37,3 +37,5 @@ opt.splitbelow = true
 
 opt.iskeyword:append("-")
 
+-- trial--  to enable scrolling
+opt.mouse = 'a'
